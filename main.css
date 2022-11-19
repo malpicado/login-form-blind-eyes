@@ -202,8 +202,7 @@ form {
     );
     transition: all 0.125s;
   }
-  
-  /** Checkbox styling */
+
   .a11y-hidden {
     position: absolute;
     top: -1000em;
@@ -426,3 +425,28 @@ form {
     left: 52.5%;
     transform: skew(10deg) rotate(-15deg);
   }
+
+
+.footer{
+  order: 5;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+a.code-btn{
+  cursor: pointer;
+  margin: 25px;
+  padding: 10px;
+  background-color: #018001;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+a.code-btn:hover{
+  background-color: #F8EE1E;
+  color: #018001;
+}
