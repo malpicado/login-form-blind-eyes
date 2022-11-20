@@ -245,6 +245,7 @@ form {
     background: hsl(var(--fgColorH), var(--fgColorS), var(--fgColorL));
   }
 
+  /* dibujamos a la personita animada*/
   figure {
     --skinH: 30;
     --skinS: 100%;
